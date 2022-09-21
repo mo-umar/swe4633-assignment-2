@@ -2,7 +2,7 @@
 
 ## Assignment 2
 
-#### Assignment Requirements
+### Assignment Requirements
 
 **Scenario:** You want to develop a small grade calculator for KSU students. Students can enter an ID number and a grade in a webpage, and send it to the database. After submission, students will be taken to a page where they can see all ID numbers in the database, grades associated with the IDs, and the average grade of all students.
 
