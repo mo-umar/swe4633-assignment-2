@@ -1,6 +1,4 @@
-# Cloud Software Development Section
-
-## Assignment 2
+# Cloud Software Development - Assignment 2
 
 ### Assignment Requirements
 
