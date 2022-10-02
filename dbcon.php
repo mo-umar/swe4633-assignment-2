@@ -7,7 +7,7 @@ $db_name = 'DB_DATABASE';
 
 $con = mysqli_init();
 
-mysqli_real_connect($con, $host, $username, $password, $db_name);
+$con=mysqli_init(); [mysqli_ssl_set($con, NULL, NULL, {MYSQL_ATTR_SSL_CA}, NULL, NULL);] mysqli_real_connect($con, $host, $username, $password, $db_name, 3306);
 
 if (mysqli_connect_errno())
 {
