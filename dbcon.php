@@ -1,14 +1,17 @@
 <?php
 
-$servername = "swe4633-assignment-2-server.mysql.database.azure.com";
-$username = "DB_USERNAME";
-$password = "DB_PASSWORD";
-$dbname = "DB_DATABASE";
+$host = 'DB_HOST';
+$username = 'DB_USERNAME';
+$password = 'DB_PASSWORD';
+$db_name = 'DB_DATABASE';
 
-$con = mysqli_connect($servername, $username, $password, $dbname);
+$con = mysqli_init();
 
-if(!$con){
-    die('Connection Failed'. mysqli_connect_error());
+mysqli_real_connect($con, $host, username, password, db_name, 3306, NULL, MYSQL_ATTR_SSL_CA);
+
+if (mysqli_connect_errno())
+{
+    die('Failed to connect to MySQL: '.mysqli_connect_error());
 }
 
 ?>
