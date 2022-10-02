@@ -1,6 +1,6 @@
 <?php
 
-$servername = "localhost";
+$servername = "swe4633-assignment-2-server.mysql.database.azure.com";
 $username = "DB_USERNAME";
 $password = "DB_PASSWORD";
 $dbname = "DB_DATABASE";
